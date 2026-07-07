@@ -1,10 +1,11 @@
 [project]
-name = "aimer-wt-fork"
-version = "0.1.0"
-description = "Add your description here"
+name = "AimerWT"
+version = "3.0.1"
+description = "用于 War Thunder 的语音包和资源管理/安装工具。"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
-    "pygobject>=3.56.2",
     "pywebview>=6.2.1",
+    "requests>=2.34.2",
+    "pygobject>=3.56.2; sys_platform == 'linux'",  # 仅在 Linux 下安装
 ]
