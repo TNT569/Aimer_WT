@@ -1,3 +1,9 @@
+### 现已支持用[uv](https://uv.doczh.com/getting-started/installation/)管理依赖
+```bash
+uv run main.py 
+```
+即可一键启动 
+
 ### Linux 依赖安装指南
 
 为了让 Aimer WT 的 GUI 正常运行（基于 PyWebview 和 WebKit2GTK），请根据你的发行版执行以下命令：
